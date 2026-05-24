@@ -6,20 +6,22 @@
 @import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
-// Force everything after import
-* {
-  font-family: "Inter", sans-serif;
+*, body, p, li, span, div {
+  font-family: "Inter", sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Space Grotesk", sans-serif;
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__title,
+.nav__title,
+.site-title {
+  font-family: "Space Grotesk", sans-serif !important;
 }
 
 a {
   color: #AAFF00 !important;
 }
 
-.nav__list a,
 .greedy-nav a,
 .site-title {
   color: #AAFF00 !important;
