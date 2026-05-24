@@ -6,10 +6,12 @@
 @import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
-//author name font
-.author__name,
-.author__bio,
-.author__urls {
+.sidebar .author__name,
+.sidebar .author__bio,
+.sidebar .author__urls-wrapper,
+.sidebar .author__urls a,
+.sidebar p,
+.sidebar a {
   font-family: "Inter", sans-serif !important;
 }
 
