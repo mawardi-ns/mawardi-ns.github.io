@@ -3,6 +3,12 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Halo, selamat datang di laman saya! (Hello, welcome to my page!)
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I am a junior bioinformatician who thrives in multidisciplinary, research-driven environments. My experience includes whole-genome sequencing and analysis, transcriptome analysis, molecular docking and simulation for drug discovery and development, as well as database construction and management.
+
+Beginning my journey as a wet-lab scientist and research assistant in a clinical microbiology laboratory, I developed a strong interest in bridging experimental and computational research. I am particularly motivated to build expertise in translational bioinformatics, with a focus on complex and infectious diseases.
+
+Currently, I am completing my MS in Bioinformatics at Boston University and seeking opportunities as a research assistant where I can contribute to both experimental and computational aspects of research.
+
+I am always excited to connect with the bioinformatics community, exchange ideas, and explore opportunities for collaboration. Let's chat!
