@@ -9,7 +9,7 @@ header:
     overlay_filter: "0.3"
     overlay_image: /assets/images/frontpage_pic1.jpg
     - label: "About Me"
-    url: "/about/"
+      url: "/about/"
 excerpt: "A bioinformatician with a molecular biology background."
 #author_profile: true
 ---
