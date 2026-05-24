@@ -6,23 +6,20 @@
 @import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
-*:not(.fa):not(.fas):not(.fab):not(.far):not([class^="fa-"]) {
+// Body and general text
+body, p, li, span, div, td, th, blockquote,
+.page__content, .archive__item-excerpt,
+.author__bio, .author__name, .nav__items {
   font-family: "Inter", sans-serif !important;
 }
 
+// Headings
 h1, h2, h3, h4, h5, h6,
-.page__title,
-.archive__title,
-.nav__title,
-.site-title {
+.page__title, .archive__title,
+.archive__item-title, .site-title {
   font-family: "Space Grotesk", sans-serif !important;
 }
 
-a {
-  color: #AAFF00 !important;
-}
-
-.greedy-nav a,
-.site-title {
-  color: #AAFF00 !important;
-}
+// Accent color
+a { color: #AAFF00 !important; }
+.greedy-nav a, .site-title { color: #AAFF00 !important; }
