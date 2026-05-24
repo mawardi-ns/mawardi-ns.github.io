@@ -14,28 +14,29 @@ header:
 excerpt: "A bioinformatician with a molecular biology background."
 #author_profile: true
 ---
-<style>
-.page__hero--overlay {
-  transition: opacity 1s ease-in-out;
-}
-</style>
-
 <script>
-const images = [
-  "/assets/images/frontpage_pic1.jpg",
-  "/assets/images/frontpage_pic2.jpg",
-  "/assets/images/frontpage_pic3.jpg"
-];
+document.addEventListener("DOMContentLoaded", function() {
+  const images = [
+    "/assets/images/frontpage_pic1.jpg",
+    "/assets/images/frontpage_pic2.jpg",
+    "/assets/images/frontpage_pic3.jpg"
+  ];
 
-let i = 0;
-const hero = document.querySelector(".page__hero--overlay");
+  let i = 0;
+  const hero = document.querySelector(".page__hero--overlay");
 
-setInterval(() => {
-  hero.style.opacity = "0";
-  setTimeout(() => {
-    i = (i + 1) % images.length;
-    hero.style.backgroundImage = `url(${images[i]})`;
-    hero.style.opacity = "1";
-  }, 1000);
-}, 5000);
+  if (!hero) {
+    console.error("Hero element not found!");
+    return;
+  }
+
+  setInterval(() => {
+    hero.style.opacity = "0";
+    setTimeout(() => {
+      i = (i + 1) % images.length;
+      hero.style.backgroundImage = `url(${images[i]})`;
+      hero.style.opacity = "1";
+    }, 1000);
+  }, 5000);
+});
 </script>
