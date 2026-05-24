@@ -8,6 +8,7 @@ header:
     overlay_color: "#000"
     overlay_filter: "0.3"
     overlay_image: /assets/images/frontpage_pic1.jpg
+    actions:
     - label: "About Me"
       url: "/about/"
 excerpt: "A bioinformatician with a molecular biology background."
@@ -15,7 +16,7 @@ excerpt: "A bioinformatician with a molecular biology background."
 ---
 <style>
 .page__hero--overlay {
-  transition: background-image 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 </style>
 
@@ -27,8 +28,14 @@ const images = [
 ];
 
 let i = 0;
+const hero = document.querySelector(".page__hero--overlay");
+
 setInterval(() => {
-  i = (i + 1) % images.length;
-  document.querySelector(".page__hero--overlay").style.backgroundImage = `url(${images[i]})`;
+  hero.style.opacity = "0";
+  setTimeout(() => {
+    i = (i + 1) % images.length;
+    hero.style.backgroundImage = `url(${images[i]})`;
+    hero.style.opacity = "1";
+  }, 1000);
 }, 5000);
 </script>
