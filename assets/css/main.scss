@@ -23,3 +23,16 @@ h1, h2, h3, h4, h5, h6,
 // Accent color
 a { color: #AAFF00 !important; }
 .greedy-nav a, .site-title { color: #AAFF00 !important; }
+
+//hide twt button
+.btn--twitter {
+  display: none !important;
+}
+
+//white font
+.btn--facebook, .btn--linkedin,
+.page__share .btn {
+  background: white !important;
+  color: black !important;
+  border-color: white !important;
+}
