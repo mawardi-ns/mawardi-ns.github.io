@@ -70,8 +70,8 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mawardi-ns"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/nailasm/"
 
 footer:
   links:
@@ -81,6 +81,10 @@ footer:
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://medium.com/@nailasbmd"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/nailasm/"
+
 
 defaults:
   # _posts
