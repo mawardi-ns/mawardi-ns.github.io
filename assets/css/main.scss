@@ -48,6 +48,6 @@ a { color: white !important; }
 
 //splash-header position settings
 .page__hero--overlay {
-  background-position: center center; /* or center, top, bottom, left, right */
+  background-position: center bottom; /* or center, top, bottom, left, right */
   transition: opacity 1s ease-in-out;
 }
