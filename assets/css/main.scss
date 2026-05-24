@@ -6,6 +6,13 @@
 @import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
+//author name font
+.author__name,
+.author__bio,
+.author__urls {
+  font-family: "Inter", sans-serif !important;
+}
+
 // Body and general text
 body, p, li, span, div, td, th, blockquote,
 .page__content, .archive__item-excerpt,
