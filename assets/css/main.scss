@@ -1,0 +1,20 @@
+---
+---
+
+@charset "utf-8";
+
+// Fonts
+$sans-serif: "Inter", sans-serif;
+$serif: "Inter", sans-serif;
+$monospace: "JetBrains Mono", monospace;
+$global-font-size: 16px;
+$global-line-height: 1.7;
+$header-font-family: "Space Grotesk", sans-serif;
+
+// Colors
+$link-color: #AAFF00;
+$primary-color: #AAFF00;
+$focus-color: #AAFF00;
+$active-color: mix(#fff, #AAFF00, 25%);
+
+@import "minimal-mistakes";
